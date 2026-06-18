@@ -1,0 +1,43 @@
+{
+  "name": "expressts",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "debug": "^4.4.3",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "http-errors": "^2.0.1",
+    "joi": "^18.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.3.0",
+    "mongoose": "^9.7.1",
+    "morgan": "^1.11.0",
+    "multer": "^2.2.0",
+    "sharp": "^0.35.1"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/debug": "^4.1.13",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/morgan": "^1.9.10",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^25.9.3",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
